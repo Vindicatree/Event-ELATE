@@ -709,56 +709,6 @@ iframe{
     }
 
     .tune-in .container1{
-        width: 300px;
-        height: 20vh;
-        margin-bottom: 20px;
-    }
-
-    .Closing-night .container{
-        width: 300px;
-        height: 20vh;
-        margin-bottom: 20px;
-    }
-
-    .competitions .image img{
-        height: 30vh;
-        width: auto;
-    }
-
-    .tagline{
-        font-size: 23px;
-        width: 200px;
-    }
-    
-    .btn a{
-        font-size: 20px;
-        font-weight: 700;
-        padding: 7px 25px;
-    }
-
-    .competitions{
-        margin-top: 80px;
-        margin-left: 20px;
-    }
-
-    .tune-in-desc{
-        font-size: 16px;
-    }
-
-    .closing-night-desc{
-        font-size: 16px;
-    }
-
-    .competitions .desc{
-        display: flex;
-        flex-direction: column;
-        color: #f2f2f2;
-        margin-left: 30px;
-    }
-}
-
-@media (max-width:450px){
-    .tune-in .container1{
         width: 350px;
         height: 25vh;
         margin-bottom: 20px;
@@ -804,6 +754,40 @@ iframe{
         flex-direction: column;
         color: #f2f2f2;
         margin-left: 30px;
+    }
+}
+
+@media (max-width:400px){
+
+    @media (max-height: 765px) {
+        .tune-in .title{
+            padding-top: 30px;
+        }
+    }
+
+    @media (max-height: 695px){
+        .tune-in-desc{
+            width: 80%;
+        }
+    }
+
+    @media (max-height: 700px) {
+        .tune-in .title{
+            padding-top: 20px;
+        }
+    }
+
+    @media (max-height: 695px){
+        .tune-in-desc{
+            width: 80%;
+            font-size: 12px;
+        }
+        .closing-night-desc{
+            font-size: 12px;
+        }
+        .content{
+            width: 80%;
+        }
     }
 }
 
